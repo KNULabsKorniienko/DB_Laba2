@@ -1,0 +1,30 @@
+{
+  "name": "QUOTES-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^6.6.6",
+    "mongoose": "^5.10.11",
+    "nock": "^13.0.4",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pg-promise": "^11.5.4",
+    "usql": "^1.0.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "jest": "^26.6.2",
+    "supertest": "^6.0.0"
+  }
+}
